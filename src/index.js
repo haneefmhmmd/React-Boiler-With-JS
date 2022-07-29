@@ -1,3 +1,3 @@
 import greet from "./greet";
 
-greet();
+greet("haneef");

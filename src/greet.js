@@ -1,5 +1,5 @@
-function greet(){
-    console.log("Hi, there!");
+const greet = (name)=>{
+    console.log(`Hi ${name}`);
 }
 
 export default greet;
