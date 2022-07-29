@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Haneef Muhammad",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haneefmhmmd/React-Boiler-With-JS.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/haneefmhmmd/React-Boiler-With-JS/issues"
+  },
+  "homepage": "https://github.com/haneefmhmmd/React-Boiler-With-JS#readme"
 }
