@@ -1,8 +1,8 @@
 import React from 'react'
-import {hot} from 'react-hot-loader';
+import { hot } from 'react-hot-loader'
 class App extends React.Component {
   state = {
-    count: 0
+    count: 0,
   }
 
   render() {
@@ -10,11 +10,19 @@ class App extends React.Component {
       <div>
         <h1>Hello World!</h1>
         <h2>Count: {this.state.count}</h2>
-        <button onClick={() => this.setState(state => ({count: state.count + 1}))}>+</button>
-        <button onClick={() => this.setState(state => ({count: state.count - 1}))}>-</button>
+        <button
+          onClick={() => this.setState((state) => ({ count: state.count + 1 }))}
+        >
+          +
+        </button>
+        <button
+          onClick={() => this.setState((state) => ({ count: state.count - 1 }))}
+        >
+          -
+        </button>
       </div>
     )
   }
 }
 
-export default hot(module)(App);
+export default hot(module)(App)
