@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack-dev-server --open --config webpack.config.dev.js"
+    "dev": "webpack-dev-server --open --config webpack.config.dev.js",
+    "dev:hot": "webpack-dev-server --open --hot --config webpack.config.dev.js"
   },
   "author": "Haneef Muhammad",
   "license": "ISC",
@@ -39,6 +40,7 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hot-loader": "^4.13.0"
   }
 }

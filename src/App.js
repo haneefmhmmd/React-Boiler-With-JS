@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {hot} from 'react-hot-loader';
 class App extends React.Component {
   state = {
     count: 0
@@ -17,4 +17,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default hot(module)(App);
