@@ -1,3 +1,6 @@
-import greet from "./greet";
+import React from "react";
+import ReactDOM  from "react-dom";
+import App from "./App";
 
-greet("haneef");
+
+ReactDOM.render(<App />, document.getElementById("root"));
